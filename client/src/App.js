@@ -31,7 +31,7 @@ import BookingModal from './components/AirplaneComponent/BookingModal/BookingMod
 function App() {
   const userId = localStorage.getItem("userId");
 
-
+// thong bao
   const handleError = (errorMessage) => {
     toast.error(errorMessage);
   };
